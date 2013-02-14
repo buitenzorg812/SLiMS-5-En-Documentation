@@ -1,0 +1,840 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+\lang bahasa
+StockTake
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color blue
+\lang bahasa
+I have always imagined that Paradise will be a kind of library.
+ --Jorge Luis Borges
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The StockTake Module is a facility in SLiMS to help librarians conduct stock-tak
+ing.
+ When the stock-taking process begins, all items except those being borrowed
+ (status = on loan) will be marked as lost, and appear in the menu Current
+ Lost Item until the item concerned is checked in the stock-take.
+ Menus contained in this module are:
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Stock Take History
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Contains reports of when stock-taking has been done.
+ Information in this menu are: StockTake Name, Start Date, End Date, The
+ report contains links to a document in .html form for each stock-take report
+ ever done.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/stocktake_history.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+StockTake History 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Initialize
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The Initialize menu is used to start stock-taking.
+ In this menu, there are the following sub-menus:
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+StockTake Name: the name of the stock-taking activities undertaken.
+ Customize the name to your liking.
+ This field MUST be filled.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+GMD: (See the module guide Master File -> GMD (below Authority Files)).
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Collection Type: (See the module guide Master File -> Collection Type (under
+ Lookup Files)).
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Location: (See the module guide Master File -> Location (below Authority
+ Files)).
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Shelf Location: referring to the information item in the Bibliography module.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Classification: Referring to the classification field in the Bibliography
+ module.
+ For defining a classification range use the wildcard (*), For example,
+ if we want to do stock-taking of classifications with a range of 100 through
+ to 300, just enter 1 * to 3 *.
+ If the range of classifications we stock-take is in the 100's, enter 1
+ *.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/stocktake_initilaize.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Initializing 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/stocktake_initialized.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Initializing process
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+After the Initialization is done, the Current StockTake menu and StockTake
+ Report will serve as menus for stock-take activities, coupled with the
+ navigation menu to be used to conduct a stock-take along with the StockTake
+ Finish menu, Current Lost Items, StockTake Log, and Resynchronise.
+ (See picture)
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Current Stock Take
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu is the main menu for doing a stock-take.
+ It is used to restore the status of library collections that are considered
+ lost by the system, In this menu, item id (barcode number) is the main
+ item reference to change the status of the items that are considered lost
+ to existing (there), Do this by entering the barcode number in the field
+ Item Code.
+ This menu will work when the Initialize process is completed.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Commencing with version stable11, there is a feature 
+\begin_inset Quotes eld
+\end_inset
+
+List stocktakes by:
+\begin_inset Quotes erd
+\end_inset
+
+ to choose Current User Only, (which means that the list of records that
+ appear are stock-takes by the user in question).
+ Or All Users, (the list is of stock-take records by all users who do stock-take
+).
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/stocktake_current3.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Current StockTake
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+StockTake Report
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Use this menu to see the results of the activities that have been performed
+ in stock-take.
+ The form of the report contains information about the number of items checked,
+ items lost, and number of items on loan .
+ This menu does not work if the Initialization is not done.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/stocktake_report1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+StockTake Report 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Finish StockTake
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Click on this link if you have finished stock-taking.
+ In the menu, there is a field labelled Purge Lost Item.
+ If we give a checkmark on Yes, the data items in the collection that are
+ in Current Lost items will be marked as "Missing".
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/stocktake_finish.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Finish StockTake 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Current Lost Items
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The contents of this menu is a list of items that are considered missing
+ at the time of stock-taking, in addition to items on loan.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/stocktake_current_lost.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Current Lost Items 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+StockTake Log
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The function of this menu is to find log records when doing the stock-take
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/stocktake_log.png
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+StockTake Log 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Resynchronize
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu is used to synchronize newly edited bibliographic data during
+ ongoing activities to take stock of existing bibliographic data using the
+ stock-take module.
+ The goal is that when we do editing of bibliographic data while doing the
+ stock-take, in order to produce a change in the bibliographic data contained
+ in the stock-take module , it is necessary to do resynchronization of data.
+ Click the button, and that Resyncronizes bibliographic data .
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/stocktake_resyncronize.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Resynchronise 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Upload List
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu is used to perform automated stock-take using a data file listing
+ the items.
+ To be able to use the Upload List, first the data items should be exported
+ from Senayan, then specific items are stored in a .txt file in rows.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/stock-fileuploadlist.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Sample .txt File for Upload List 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/stock-uploadlist.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Upload List
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

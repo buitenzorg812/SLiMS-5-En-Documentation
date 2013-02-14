@@ -1,0 +1,931 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+\lang bahasa
+OPAC (Online Public Access Catalog)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color blue
+\lang bahasa
+The library is not only a diary of the human race, but marks an act of faith
+ in the continuity of humanity.
+ --Vartan Gregorian 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The OPAC (Online Public Access Catalog), is a search tool that is targeted
+ at the user.
+ The OPAC in Senayan consists of Simple Search , Advanced Search , Library
+ Information (information about the library), Help on Search, and Librarian
+ login.
+ In the Simple Search, the search can be done by typing a keyword (title,
+ author, subject ...) in the field provided.
+ In Advanced Search, there are three columns, namely search: Title particular,
+ specific Author, ISBN/ISSN and special Subject.
+ To narrow the search, provide the optional Location, Collection Type and
+ GMD.
+ Information contained in Library Information can be tailored to libraries/insti
+tutions libnfo.inc.php by editing files located in the lib folder.
+ As for changing Help on Search, this is done by editing the file help.inc.php
+ located in the lib folder.
+ The initial view of search results in the OPAC loads bibliographic picture/imag
+e, title and author.
+ In addition, it is coupled with the Detail button (to see detail bibliographic
+ data) and XML (for XML format).
+ The Detail view, includes the information: Title , Edition, Call Number,
+ ISSN/ISBN, Author, Topics, Classification, Series, Title, GMD, Language,
+ Publisher, Publish Year, Publish place, Collation, Abstract/Notes, File
+ Attachment, Availability (availability: contains item location information
+ , and if the item is available), It also features Topics and Author document
+ linkages.
+ So when we click on Topics or Author in the Detail view, the OPAC will
+ display documents with the same topic or author.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+In the OPAC also, there is the capacity to change the interface language.
+ The Senayan OPAC has at least 5 languages ​​of instruction, ie Arabic,
+ Bahasa Indonesia, English, German and Spanish.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/template_default.png
+	scale 32
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+OPAC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac_det.png
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+OPAC Detail
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac_xml.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+OPAC XML
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Custom Field Record List
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+In Senayan stable8, facilities were added to customise appearance and add
+ a record field .
+ This addition can be done by editing the files contained in the folder
+ custom_frontpage_record.inc.php OPAC template.
+ So if you want to change the view provided, and you are using the default
+ template, you should edit the file custom_frontpage_record.inc.php existing
+ templates /default/.
+ The contents of this file are:
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+// change "0" value to "1" to enable field
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+// $custom_fields['edition'] = array(1, lang_mod_biblio_field_edition);
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+$custom_fields['edition'] = array(0, lang_mod_biblio_field_edition); -->
+ to show edition
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+$custom_fields['isbn_issn'] = array(0, lang_mod_biblio_field_isbn); -->
+ to display the ISBN
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+$custom_fields['collation'] = array(0, lang_mod_biblio_field_collation);
+ --> to show collation
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+$custom_fields['series_title'] = array(0, lang_mod_biblio_field_series);
+ --> to show series
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+$custom_fields['call_number'] = array(1, lang_mod_biblio_field_call_number);
+ --> to show call number
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The trick is to change the number 0 to number 1 for the extra field(s) you
+ wish displayed in the OPAC 
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Display Multimedia
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Multimedia files which are uploaded in the Bibliography module will be displayed
+ in the Senayan OPAC module, Here is an example of an .flv file
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/multimed1.png
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Multimedia Display
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Display PDF Streaming
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Commencing with Stable13, Senayan has supported the viewing of document
+ attachments in the form of streaming.
+ To display these, the required Flash Player/plugin must be installed on
+ the browser used.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac_pdfstreaming.png
+	scale 40
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+PDF Streaming Display
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Boolean Logic in the OPAC 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Commencing with Senayan3-stable10, the OPAC search system supports boolean
+ logic.
+ In the search process the operators OR, NOT and AND can be used.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+For example: subject = politic NOT politics, the result is politic without
+ invoking politics.
+ title = mapping AND author = Dwikorita , the result is a collection of
+ titles containing the string 
+\begin_inset Quotes eld
+\end_inset
+
+mapping
+\begin_inset Quotes erd
+\end_inset
+
+ , and by author Dwikorita.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/boolean.png
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Boolean Logic
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Member Area
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Commening with Senayan3-Stable12, Senayan has a Member Area feature.
+ The big change in the Member Area occurred in Stable 15/Matoa.
+ In this feature members can log in using their member ID and password previousl
+y been determined by the librarian in the member data record.
+ In Stable12 when members login, members can view the collection on loan
+ to them, and change their password.
+ But with this expanded facility in Stable15/Matoa downloading of loan list,
+ download of rental history list, and booking via email are all possible
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-memberlogin.png
+	scale 120
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Member Login Menu Display
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-login-logout.png
+	scale 130
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Tampilan identitas Anggota yang Log-in
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-memberarea.png
+	scale 80
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Member Information, Loan and borrowing history + download list
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-memberarea1.png
+	scale 80
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Informasi Sejarah peminjaman, keranjang judul dan ubah password
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In addition to loan summaries and download facilities, there is a feature
+ called Title Basket.
+ This basket can be filled according to titles and will attract members
+ in the message.
+\end_layout
+
+\begin_layout Standard
+The method of filling it is, by heading to the OPAC page, and displaying
+ the following:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-keranjang-depan.png
+	scale 80
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Filling Title Basket
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A display as above appears, if you login as a member.
+ To select a title, please tick the box at the end of each title, then click
+ "Put marked selection into basket".
+ The results are as follows.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-keranjang-isi.png
+	scale 80
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Your Title Basket contents
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\lang bahasa
+To send requests to the Librarian, please click "Reserve added to the basket."
+ Then if successful a message will appear as follows
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Requests for delivery go via email: please see the email settings in the
+ Tips and Tricks section - Setting up email server.
+\end_layout
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-sent-pesanan.png
+	scale 80
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Requests sent to librarians e-mail 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Librarians will receive a submission email as follows:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/opac-reserv-email.png
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Requests received in librarians e-mail 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

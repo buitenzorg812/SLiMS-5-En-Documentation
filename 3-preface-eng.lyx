@@ -1,0 +1,385 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+\lang bahasa
+Introduction
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color blue
+\lang bahasa
+No furniture so charming as books.
+ - Sydney Smith
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+SLiMS is Open Source Software (OSS) developed to meet the needs of web-based
+ library automation, from small to large scale.
+ Because it is full-featured and still actively developed, SLiMS is suitable
+ for libraries that have varied collections, several staff members and a
+ networked environment, whether local network (intranet) or the Internet.
+ Another SLiMS feature is that it is multi-platform, which means it can
+ run natively in almost all Operating Systems that support the programming
+ language PHP(
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.php.net
+\end_layout
+
+\end_inset
+
+) and MySQL RDBMS (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.mysql.com
+\end_layout
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+SLiMS itself is developed on the platform of GNU / Linux and is running
+ well on other platforms such as Unix * BSD and Windows.
+ SLiMS is made up of web-based applications with cross-platform considerations
+ and completely developed using Open Source Software, i.e : PHP Web Scripting
+ Language, (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+www.php.net
+\end_layout
+
+\end_inset
+
+) and MySQL Database Server (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+www.mysql.com
+\end_layout
+
+\end_inset
+
+).
+ To increase interactivity in such a desktop application, it also uses AJAX
+ technology (Asynchronous JavaScript And XML).
+ Senayan also uses Open Source Software to add features such as PhpThumb
+ and SIMBIO ( a development platform developed from the project Igloo).
+ Senayan is licensed under the GPLv3 which guarantees the freedom to obtain,
+ modify and redistribute (rights to use, study, copy, modify, and redistribute
+ computer programs).
+ More details about GPLv3 can be read at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.gnu.org/licenses/gpl-3.0.html
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+SLiMS version 1 and 2 were not released to the public because it was still
+ being tested and was being refined.
+ Since version 3, SLiMS has been considered stable enough to be released
+ to the public and it is time-tested by the librarian community.
+ Through review by the public and peer-to-peer feedback , Senayan will become
+ even more stable software and its features more diverse, accommodating
+ many needs.
+ To view a demo and download Senayan software , visit
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://slims.web.id
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+SLiMS features include: 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Online Public Access Catalog (OPAC) displays thumbnails on-the-fly.
+ The thumbnail is useful for displaying the book cover.
+ OPAC modes available include simple search (Simple Search) and advanced
+ (Advanced Search).
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Details are also available in XML (Extensible Markup Language) record format,
+ standard MODS for web service needs.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Features Z39.50, SRU and p2p services to enable copy-cataloging from various
+ libraries.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Efficient data management to minimize repetition of bibliographic data.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Management master files for referential data such as GMD (General Material
+ Designation), Collection Type , Publisher, Author, Location, Suppliers,
+ and others.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Circulation with the following features: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang bahasa
+Transactions of borrowing and returning
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Reserve collection 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Flexible lending rules 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Information on delays and fines
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang bahasa
+Membership management
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Collection inventory (stocktaking)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Reports and statistics
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Management of periodicals
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Supports the management of multimedia documents (.FLV, .MP3) and digital documents
+, particularly PDFs, in 
+\shape italic
+streaming
+\shape default
+ form.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+SLiMS supports a variety of languages ​​including formats that do not Latin
+ scripts.
+\end_layout
+
+\begin_layout Itemize
+Provides a variety of languages in the interface (Indonesian, English, Spanish,
+ Arabic, German, Bengali, Thai etc ).
+\end_layout
+
+\begin_layout Itemize
+Union Catalog Service Module support
+\end_layout
+
+\begin_layout Itemize
+Library visitor counter
+\end_layout
+
+\begin_layout Itemize
+Member area, to view and download the collection was and never borrowed.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+System module with the following features:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang bahasa
+Configure global system
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Management module
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+User Management (library staff) and Access level Groups
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Setting holiday periods
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Creation of automated barcodes
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Backup utilities
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+and various other features that we can not cover in this introduction.
+ Please continue reading the following chapters for full documentation.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

@@ -1,0 +1,1046 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+\lang bahasa
+Installation
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+SLiMS has several methods of installation.
+ Installing from source code (with manual editing for the database name,
+ username and password); Psenayan installation (portable senayan); and installat
+ion using the SLiMS Installer .
+ Here's an explanation of each method of installation.
+ Although the examples used are for the old version, the process is basically
+ the same for subsequent versions of SLiMS.
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Installation of SLiMS from 
+\emph on
+source
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+\color blue
+\lang bahasa
+Education is the passport to the future, for tomorrow belongs to those who
+ prepare for it today (Malcolm X)
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Example: Senayan3-stable10 installation.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+(Beginning from Stable15 (Matoa) after completion of a Senayan install,
+ the database must be indexed first, in line with the index contained in
+ the Module System)
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Make sure your Web server (such as Apache web server), the MySQL database
+ server, and PHP scripting engine are installed and running properly.
+ It will be easier if PhpMyAdmin is also installed as it will greatly assist
+ setting up the database via a web interface.
+ If you are using Windows, it is recommended you use Portable Senayan for
+ Windows (Psenayan), which has proven to be stable and easy for both SLiMS
+ installation and backup (just copy the folder).
+ Installing SLiMS from source is recommended for platforms other than Windows,
+ such as GNU / Linux and Unix platforms, because the conditions are relatively
+ more diverse.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+In Unix/Linux, the installation of a Web server (eg Apache), MySQL and PHP
+ can done through the default distro binary packages respectively.
+ Alternatively, the installation of source code will offer flexibility.
+ SLiMS was developed on the platform GNU / Linux (Zenwalk and Ubuntu) and
+ has been tested in production scale across multiple servers based on Centos
+ Linux, Open-SUSE Linux, FreeBSD and Windows.
+ 
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\lang bahasa
+Basically there is no problem whichever Operating System is used.
+ The important thing is that PHP and MySQL are already both running on the
+ Operating System.
+ If Senayan is used on the internet (public), you are advised to increase
+ security by adding a firewall on the TCP/IP (layer 3 and 4 of the OSI layer)
+ side, on the application side (eg ModSecurity), and in the database (eg
+ GreenSQL:).
+ An implementation tutorial can be found at: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://hendrowicaksono.multiply.com/journal/item/54
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-01.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Put the file senayan*.tar.gz file into the web document root
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Now, place the source SLiMS web document in the root of your web server
+ that you will use.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+For example: I use Ubuntu Linux and install Apache Webserver via the source
+ code.
+ Its web document root is located at /usr/local/apache/htdocs , while in
+ OpenSUSE it's located in /srv/www.
+ If you are using xampplite in Windows, the web document root is usually
+ located in 
+\backslash
+xampplite
+\backslash
+htdocs.
+ Still in Windows, if you install Apache individually (not through an AMP
+ package), a web document root usually is found in "Program Files
+\backslash
+apachegroup
+\backslash
+apache
+\backslash
+htdocs" 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-02.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Extract file senayan*.tar.gz
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-03.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Senayan*.tar.gz extract completed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Extract the file senayan3-*.tar.gz in the same directory.
+ In Windows you can use Winzip.
+ On Linux you can use the default Linux tools.
+ For example (I use Ubuntu) by running the command:
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> sudo tar -xvxf senayan3-stable10-patch1.tar.gz 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+it will create a folder/directory named senayan3-stable10
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-04.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Creating a database using the MySQL console
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Now go to the newly formed folder senayan3-stable10 .
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> cd senayan3-stable10
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+There are two sql files in which we will enter the data for the structure
+ and Senayan application examples.
+ To view them, run the command:
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> ls -la install/*.sql 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Assuming the user has access allowing them to create a database (eg, root),
+ then create a database with the name 
+\begin_inset Quotes eld
+\end_inset
+
+senayandb
+\begin_inset Quotes erd
+\end_inset
+
+:
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> mysql -u root -p 
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+mysql> CREATE DATABASE senayandb; 
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+mysql> SHOW DATABASES; 
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+mysql> quit;
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-new.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Creating a database with the help of phpMyAdmin
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-new1.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Database has been created with the help of phpMyAdmin
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-06.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Dump the Senayan data to a SQL database via MySQL console
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Next create a Senayan data structure and install the sample data.
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> mysql -u root -p senayandb < install/senayan.sql 
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> mysql -u root -p senayandn < install/sample_data.sql
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-new2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Import data.sql with PhpMyAdmin
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-new3.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Successful import using PhpMyAdmin
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-08.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Creating a database user via the MySQL console
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Optionally, for security reasons, you can create a user specifically for
+ the Senayan database.
+ I run the following command:
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> mysql -u root -p 
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+mysql> GRANT ALL PRIVILEGES ON senayandb.* TO 
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+'senayanuser'@'localhost' IDENTIFIED BY 'password_senayanuser';
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-09.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Configuring a database connection in the file sysconfig.local.inc.php
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-10.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+The configuration database that has been customized
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\lang bahasa
+Now edit the sysconfig.local.inc.php 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Starting from version Matoa, SLiMS uses sysconfic.local.inc.php for local configura
+tion.
+ That is, if there is a change, or a new configuration file sysconfig.local.inc.php
+, then that will be read by SLiMS first.
+ Or if there are two configurations in files sysconfig.inc.php and sysconfig.local.i
+nc.php and then SLiMS will read sysconfig.local.inc.php first.
+ To add a configuration or change the local configuration, simply add/copy
+ of sysconfig.inc.php only.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+For example: 
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+For mysqldump, in sysconfig.inc.php contents: $ sysconf ['mysqldump'] = '/usr/bin/
+ mysqldump'; 
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+copy the line, and paste into sysconfig.local.inc.php then adjust to the local
+ conditions.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+For example, so: $ sysconf ['mysqldump'] = '/psenayan/mysql/bin/mysqldump.exe';
+\end_layout
+
+\end_inset
+
+ file in your favorite editor (eg: notepad, or vim), and change the database
+ connection config.
+ If your database name is different, change the value of the DB_NAME.
+ Likewise with DB_USERNAME and DB_PASSWORD.
+ Save the changes, then close your editor.
+ Beginning from Senayan3-stable15, if you want to install SLiMS you do not
+ need to change the configuration in the file sysconfig.inc.php, but do local
+ database configuration in sysconfig.local.inc.php instead.
+ The location of this file is the same as the location of the file sysconfig.inc.p
+hp.
+ In Unix / Linux, the Apache web server must be able to write to the directories
+ holding images and files.
+ This can be done in two ways.
+ Firstly by changing directory permissions so that it can be written (change
+ mode).
+ As root do:
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> chmod -R 777 images 
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> chmod -R 777 files
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> chmod -R 777 repository
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+A second way is to change the ownership of the user directory (you should
+ first know the user who runs the web server process.
+ For example, user "daemon", nobody, etc.).
+ As root do:
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> chown -R daemon images 
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> chown -R daemon files
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+shell> chown -R daemon repository
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/instalasi-11.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+The Senayan application can now be used 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Now try to access the address 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://localhost/senayan3-stable10/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Beginning from Stable 15 (Matoa), to display bibliographic data in the SLiMS
+ OPAC , indexing must be done first.
+ Indexing is in the System module
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+SLiMS should now be able to be used.
+\end_layout
+
+\end_body
+\end_document

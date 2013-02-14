@@ -1,0 +1,405 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+\lang bahasa
+Serial Control
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color blue
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Open Source is about respecting others peoples creation, sharing knowledge
+ , and trying not to use piracy program
+\begin_inset Quotes erd
+\end_inset
+
+ (Arie Nugraha)
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Serial Control has been implemented since Senayan3-Stable10.
+ This feature is used to manage a collection of serials/magazines/publications
+ subscribed to by the library.
+ The Serial Control Module supports the library to manage more than one
+ copy subscription (from more than one vendor) for each magazine title.
+ Serial Control functions can be accessed via the Administration menu by
+ clicking on Serial Control.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The Serial Control Module will run if bibliographic data is subscribed for
+ magazine titles.
+ The information that distinguishes between magazine bibliographic data
+ and other document types is the frequency/time the serial is published.
+ If there is no bibliographic data in a table that indicates the frequency,
+ this functionality will not work.
+\end_layout
+
+\begin_layout Standard
+
+\color black
+\lang bahasa
+The initial view of the module when activated will show a list of magazines
+ that include titles owned by the library and the publication frequency.
+ Improvement to a serial's bibliographic data is possible by clicking the
+ series title.
+ A bibliographic data window will appear to allow for editing.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+To display a list of subscriptions, use the folder icon ( with magnifier)
+ to the right of the list.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+To use KARDEX you should start by doing initialising first.
+ Initializing the data for the arrival of subscribed magazine is intended
+ to identify the initial number of items expected to be received, and the
+ estimated arrival time of the item/issue.
+ Click the icon in the top right corner ( with a + sign ) to start initializatio
+n of the KARDEX list.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/serial-subscribe-baru.png
+	scale 40
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Making KARDEX
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Subscription Start: fill in the date the subscription will start to be received
+ at the library.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Total Exemplar Expected: enter the total number you expect to receive in
+ a period of a subscription.
+ E.g to subscribe for a year on a monthly basis insert 12.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Period Name: Name the subscription period to provide differentiation between
+ periods.
+ Also give a name to distinguish copy subscription one, a second subscription,
+ and so on.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Subscription Notes: Insert important or useful notes on the subscription.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+GMD: if necessary, replace it with the appropriate GMD of the item to be
+ subscribed
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Click 'Save' to store data initialization.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+If the KARDEX data storage process is successful, the following window will
+ be displayed.
+ Click 'OK' to return subscription list for the title question.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/serial-inisalisasi-sukses.png
+	scale 50
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Kardex storage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/serial-daftar-langganan.png
+	scale 40
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+KARDEX stored
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Commence entering KARDEX
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+When serials/magazines subscribed to arrive at the library, open the kardex
+ list by clicking the "View / Edit KARDEX Detail".
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+SKiMS KARDEX provides 4 columns of information: 1.
+ The Expected arrival date is automatically filled in during KARDEX initializati
+on.
+ If required, this date can be fixed by clicking on the calendar icon 2.
+ Fill in the "Date Received" with the date the library received the magazine.
+ 3.
+ The sequence number of the magazine received.
+ 4.
+ Notes - If necessary, this can be used to identify who receives the edition,
+ when, and the condition of the documents received etc.
+ Click the 'Save' and 'CLOSE' to update the date received and continue with
+ another new edition of magazine titles.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/serial-kardex.png
+	scale 40
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Kardex form
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Note: Do not forget to click the 'Save' when changing data in KARDEX.
+ If not, changes that have been made ​​will be ignored.
+\end_layout
+
+\end_body
+\end_document

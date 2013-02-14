@@ -1,0 +1,863 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+\lang bahasa
+Membership
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color blue
+\lang bahasa
+Your library is your portrait.
+ - Holbrook Jackson
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The Membership module is used to manage the members' data .
+ The menu sections are as follows:
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+View Member List
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This is used to view the members who have registered in the system.
+ Information shown is the Member ID, Member Name, Membership Type, Email
+ and Last update.
+ This section is provided with facilities to DELETE and EDIT.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/member-list.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+List members data 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+If any user's membership has expired, we can extend it by clicking the EDIT
+ menu.
+ Membership renewal can be done automatically or manually.
+ Automatically, we can do it with the checkbox EXTEND : the membership will
+ be extended for a specified period from the date of renewal.
+ Manually, it can also be done by editing Expiry Date.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/member-extend.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Renew membership
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+As well, extensions can also be done in bulk.
+ The trick is to click 
+\begin_inset Quotes eld
+\end_inset
+
+View Expired Member
+\begin_inset Quotes erd
+\end_inset
+
+, Checkbox the member(s) who will be extended, and then click 
+\begin_inset Quotes eld
+\end_inset
+
+Extend Selected Member (s)
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/mem-exten-massal1.png
+	scale 150
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Perpanjang Keanggotaan Massal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/mem-exten-massal2.png
+	scale 150
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Bulk Membership Renewal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Add New Member
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This provides the facility to add new members to the data in the Senayan
+ system.
+ Members' information included are: Member ID (ID -barcode/RFID for the
+ member), Member Name (Full Name of the member), Register Date (date horizontal)
+, Expiry Date (the expiration date), Institution (name of institution, agency
+ or organization name ), Membership type (type of membership), Gender (gender),
+ E-mail, address (home or work address), Postal Code (zip code), Phone Number
+ (phone number), Fax Number (fax number), Personal ID Number (Personal ID
+ number such as identity card number), Notes (short note), and upload a
+ photo (photo file of member).
+ Expiry date contained in the Auto Set, The intent of this facility, is
+ that if the Auto Sett is checked, the member's expiry date will then be
+ calculated based on Membership Type.
+ However, if unchecked, then the Expiry date can be determined manually,
+ by selecting the date of expiry.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This form also provides the feature Pending Membership.
+ If Pending Membership is checked, then that member will not be able to
+ borrow, although their membership is still active.
+ It can be applied as a sanction against members who break the library rules
+ .
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/member-add.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Add New Member Form
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Commencing with SLiMS-5, SLiMS has a new feature associated with membership.
+ The new feature is the capacity to take photos of members and directly
+ store them in the SLiMS application .
+ This feature can be found when editing membership or data entry for new
+ members.
+ The appearance of the feature is as below:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/member-foto.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Membership Photos feature 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Based on the picture above, SLiMS provides two choices: take the direct
+ image (pictured above) that facilitate members who forget to bring a digital
+ photo, or upload an existing file photo.
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Member Type
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This defines the types of membership.
+ The type of membership controls Loan Limit (limit number of borrowed copies),
+ Loan Period (the length of a loan), Reserve (whether reservations can be
+ made), Reserve Limit (limit number of copies reserved), Membership Period
+ (length of membership), Reborrow Limit (limits extensions), Fine each day
+ (fine per day for overdues ), and Overdue Grace Period (tolerance in days
+ for late returns).
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/member-type.png
+	scale 120
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Member Type 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Import Data
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu is used to retrieve member data from outside applications to put
+ into Senayan applications.
+ The data format of the import is .csv .
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Export Data
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu is used to retrieve the membership data within the Senayan application
+ , and the result is data output as a .csv file
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+An example csv data record of a member is:
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+"M001","Hendro Wicaksono","0","Mahasiswa","hendrowicaksono@yahoo.com",
+\begin_inset Newline newline
+\end_inset
+
+"Jakarta","99999","Perpustakaan DIKNAS","","member_M001.jpeg","KTP No.
+\begin_inset Newline newline
+\end_inset
+
+ 123","99999","99999","2008-12-25","2008-12-25","2009-12-25",
+\begin_inset Newline newline
+\end_inset
+
+"Anggota Teladan tahun 2006" 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/member-eksport.png
+	scale 130
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Member Export 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/member-import.png
+	scale 130
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Member Import 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Member Card
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu is used to print the member card.
+ Printing method is similar to barcode label printing.
+ The information contained in this membership card is: ID, Name, Member
+ Type, Barcode, Photo (if any) and the name of the Library .
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/mem-car.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Member Card 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Member Custom Field
+\end_layout
+
+\begin_layout Standard
+Similar to the Biblio Custom field, using this feature Senayan users can
+ add information (fields) that have to be filled in the membership information
+ form.
+ To add a new field, the steps are as follows:
+\end_layout
+
+\begin_layout Standard
+• Open the member_custom_fields.inc.php file located in the folder /admin/modules/
+membership
+\end_layout
+
+\begin_layout Standard
+• In this file there are 5 custom fields that can be used.
+ Custom fields can be removed or reduced.
+ For example, one new filed will be added to update the status of marriage,
+ then custom 2-5 are uninstalled first.
+\end_layout
+
+\begin_layout Itemize
+The Custom Field 1 is completed as follows:
+\end_layout
+
+\begin_deeper
+\begin_layout LyX-Code
+'dbfield' => 'status', // name of field in 'biblio' table in database, make
+ sure you already define it! 
+\end_layout
+
+\begin_layout LyX-Code
+'label' => __('Status Pernikahan'), // label of field in form 
+\end_layout
+
+\begin_layout LyX-Code
+'type' => 'text', // type of field 
+\end_layout
+
+\begin_layout LyX-Code
+'default' => '', // default value of field 
+\end_layout
+
+\begin_layout LyX-Code
+'max' => '50', // maximum character to enter in 'text' field type
+\end_layout
+
+\begin_layout LyX-Code
+'data' => false, // an array of data for 'dropdown', 'checklist' or 'choice'
+\end_layout
+
+\begin_layout LyX-Code
+'indexed' => true, // NOT APPLICABLE YET, FOR FUTURE RELEASE USE
+\end_layout
+
+\begin_layout LyX-Code
+'width' => 50), // width of field in form for 'text' field type, maximum
+ is 100
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The next step is to add a field/column status in the member table .
+\end_layout
+
+\begin_layout Itemize
+The result of this modification is as follows (can be seen in Add New Member):
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/member-custom.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Member Custom Field 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

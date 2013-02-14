@@ -1,0 +1,197 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Presence Module (Library Visitor Count)
+\end_layout
+
+\begin_layout Standard
+This module is accessed through this URL (adjust to your own SLiMS address):
+\end_layout
+
+\begin_layout LyX-Code
+http://localhost/senayan3-stable14/?p=visitor
+\end_layout
+
+\begin_layout Standard
+The module displays are as follows:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/absen-1.png
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Visitor Counter Display
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Visitors to the library can be divided into 3 categories: Members who have
+ registered and are still active, inactive registered members (membership
+ card expired), and visitors who are not members/unregistered.
+\end_layout
+
+\begin_layout Standard
+If you are already registered, then simply put visitors data in the column
+ above Member ID and press Enter or click Add.
+ Then the data is already stored as 1x visit complete with time and date
+ of visit.
+ If members are not active (but registered), the system will tell members
+ that their membership has expired .
+ If they are not a registered member, then they have to manually enter their
+ name and institution (mandatory).
+\end_layout
+
+\begin_layout Standard
+For the safety and validity of the visitor attendance, the Visitor Counter
+ can be set for only computers with certain Internet Protocol addresses
+ to access.
+ This setting is contained in a file called visitor.inc.php .
+ which located in the folder 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+/senayan/lib/contents/visitor.inc.php
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The script is as follows:
+\end_layout
+
+\begin_layout Standard
+$allowed_counter_ip = array('127.0.0.1');
+\end_layout
+
+\begin_layout Standard
+In the script above, 127.0.0.1 is an IP address are allowed to access the visitor
+ counter.
+ If there is more than one computer then the computer IP address in question
+ must be pre-loaded in the script above.
+ For example, to allow computers with the IP addresses 10.45.1.1, 10.45.1.2 and
+ 10.45.1.3, the scrip is written:
+\end_layout
+
+\begin_layout Standard
+$allowed_counter_ip = array('10.45.1.1', '10.45.1.2','10.45.1.3');
+\end_layout
+
+\begin_layout Standard
+The report can be seen in the Visitor sections of the Reporting module.
+ 
+\end_layout
+
+\begin_layout Standard
+However, access to the Server IP will be disturbed if you use a proxy browser.
+ Therefore, you may remove the proxy settings to the SLiMS server.
+\end_layout
+
+\end_body
+\end_document

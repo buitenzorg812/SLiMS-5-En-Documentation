@@ -1,0 +1,2932 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+\lang bahasa
+Bibliography
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color blue
+\lang bahasa
+Libraries are not made; they grow.
+ - Augustine Birrell
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+\lang bahasa
+[ Note: The term 
+\begin_inset Quotes eld
+\end_inset
+
+BIBLIOGRAPHY
+\begin_inset Quotes erd
+\end_inset
+
+ here refers to an entry for a title on the catalog database, in the sense
+ of Descriptive Bibliography ( see http://en.wikipedia.org/wiki/Bibliography
+ ).
+ Some readers may be more accustomed for the term 
+\begin_inset Quotes eld
+\end_inset
+
+Title
+\begin_inset Quotes erd
+\end_inset
+
+ to be used in this context, with the term 
+\begin_inset Quotes eld
+\end_inset
+
+Bibliography
+\begin_inset Quotes erd
+\end_inset
+
+ being used to describe a reference list ( Enumerative Bibliography ) .
+ For the sake of consistency with the software, this translated manual stays
+ with the term 
+\begin_inset Quotes eld
+\end_inset
+
+Bibliography
+\begin_inset Quotes erd
+\end_inset
+
+ ]
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This module contains the menus 
+\begin_inset Quotes eld
+\end_inset
+
+Add New Bibliography
+\begin_inset Quotes erd
+\end_inset
+
+(making bibliographic data / new catalog entry), 
+\begin_inset Quotes eld
+\end_inset
+
+Bibliographic List
+\begin_inset Quotes erd
+\end_inset
+
+ (view bibliography/catalog entry), 
+\begin_inset Quotes eld
+\end_inset
+
+Item List
+\begin_inset Quotes erd
+\end_inset
+
+ (view a list of items/copies in the collection)
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Checkout Items
+\begin_inset Quotes erd
+\end_inset
+
+ (view a list of items that were borrowed).
+ In addition, the module also comes with copy-cataloging, label printing,
+ barcode printing for items, data import, data export, item import, and
+ item export.
+ Showing a bibliography list is done by clicking on the navigation 
+\begin_inset Quotes eld
+\end_inset
+
+Bibliography List
+\begin_inset Quotes erd
+\end_inset
+
+, so if we want to see a list of items then click on the 
+\begin_inset Quotes eld
+\end_inset
+
+Item List
+\begin_inset Quotes erd
+\end_inset
+
+.
+ To see items being borrowed, click 
+\begin_inset Quotes eld
+\end_inset
+
+Checkout Items
+\begin_inset Quotes erd
+\end_inset
+
+ on the menu.
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Add New Bibliography
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu is used to add a new bibliography.
+ Click on the 
+\begin_inset Quotes eld
+\end_inset
+
+Add New Bibliography
+\begin_inset Quotes erd
+\end_inset
+
+.
+ A screen will appear as below:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Form for adding bibliographic data / cataloguing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The metadata fields we should complete are : 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Title 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Statement of Responbility
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Edition 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Specific Detail Info: specific information, such as the scale of a map,
+ which serial records are held etc.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Item(s) Code Batch Generator:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang bahasa
+This section is loaded with 
+\series bold
+Pattern
+\series default
+, 
+\series bold
+From
+\series default
+ and 
+\series bold
+To
+\series default
+.
+ 
+\series bold
+Pattern
+\series default
+ contains patterns of item codes/ barcodes that are desired, such as B01,
+ Example of use: 
+\series bold
+From
+\series default
+ contains 1, 
+\series bold
+To
+\series default
+ contains 10.
+ This means that librarians want item codes 
+\shape italic
+B011, B012 .....
+ B0110
+\shape default
+ generated.
+ This model will help a library that often receives copies of books in large
+ quantities e.g.
+ a school library.
+ If the 
+\series bold
+Pattern
+\series default
+ is filled 
+\begin_inset Quotes eld
+\end_inset
+
+B00
+\begin_inset Quotes erd
+\end_inset
+
+, with 
+\series bold
+From
+\series default
+ containing 
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\series bold
+To
+\series default
+ containing 
+\begin_inset Quotes eld
+\end_inset
+
+5
+\begin_inset Quotes erd
+\end_inset
+
+ then the result would be 
+\shape italic
+B01, B02, B03, B04, B05
+\shape default
+.
+ However, you can still use the "Add New Exemplar " to create a new data
+ item
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang bahasa
+Author(s)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+GMD : General Material Designation 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Frequency: the frequency of periodicals, This field gets data from the master
+ file.
+ If the field is filled, then the data will be detected as a serial bibliography
+ and appeared in the serial control module.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+ISBN/ISSN : ISBN or ISSN number
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Class : Classification numbers (DDC, UDC or other).
+ This is very useful in the stocktake.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Publisher : the publisher's name, taken from the data on the master file
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Publish Year : year of publication
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Publication Place : place where published
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Collation : collation/physical description
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Series Title : (if any)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Call Number :
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Topics : topic/subject.
+ This data is also linked to the master file
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Classification: a feature to take the classification number from the master
+ file.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-class.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Classification
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Language : the main language used in the item
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Abstract/Notes : an abstract of, or important notes relating to, the item,
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Image : an image file (usually of covers) that shows the appearance of the
+ title.
+ This picture will appear in the OPAC
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Attachment : can contain files relating to the item (eg scanned pages),
+ or multimedia files related to the bibliographic data.
+ Files that can be uploaded are any files with extensions: .pdf, .rtf, .txt,
+ .odt, .odp, .ods, .doc, .xls, .ppt, .avi, .mpeg, .mp4, .flv, .mvk, .wmv, .jpg, .jpeg,
+ .png, .gif, .ogg, .mp3, .wma, and .csv.
+ If what you have uploaded is a multimedia file, then later Senayan can
+ play it by streaming with the program Flowplayer, and it can not be directly
+ downloaded.
+ But if the file being uploaded is a non-multimedia file, the file will
+ be able to be downloaded.
+ (An example of multimedia file playback would be when the item is displayed
+ on the OPAC).
+ The upload can contain more than one file , and can be set to public (viewable
+ by all users) or private (based on the type of membership).
+ These are the terms of access restrictions:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang bahasa
+File access is limited via Senayan-based group (membership type).
+ So the restriction of access is integrated with the type of membership.
+ You cannot restrict access on an individual basis.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+There are two types of access to files: "public" and "private".
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+If the selected access is "private", the file can not be accessed at all
+ by anyone.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+If the selected access is "public" and not checked for any group that can
+ access, then the file can be downloaded by everyone.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+If the selected file access "public" and checked for any group permitted
+ access, then the file can be downloaded only by members who have logged
+ in and registered in the permitted group.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-attatc-akses.png
+	scale 155
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+File Attachment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+To add to the types of files that can be uploaded, please read the Tips
+ and Tricks section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Hide in OPAC: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang bahasa
+Show: Bibliography data can be accessed through the OPAC.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Hide: Bibliography data is hidden and not accessible through OPAC
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang bahasa
+Promote in Homepage: to select a whether, or not, a bibliography will appear
+ on the front page.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Label: To provide specific information about the bibliography.
+ Labels can be defined in the Master File menu.
+ By default Senayan has three labels: 
+\begin_inset Quotes eld
+\end_inset
+
+New Title
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Favorite Title
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Multimedia
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Features 
+\begin_inset Quotes eld
+\end_inset
+
+Promote to Homepage
+\begin_inset Quotes erd
+\end_inset
+
+ and Show Promoted Titles are associated with the configuration of the Homepage
+ available at the System Configuration Module.
+ The label must be defined in the Master File first.
+ The label field, may be completed with the appropriate bibliography URL
+ .
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/bib-promote1.png
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Features: Hide in OPAC, Labels, and Promote to Homepage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Once the data is entered, click Save.
+ If successful, the system will display the information that the bibliographic
+ data, files and images have been successfully saved.
+ The screen will not change, but it will grow.
+ Adding to that is the result generated according to the loaded items.
+ It is located under the Specific Details Info.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/bib-item-generate.png
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+The results of the pattern-making item codes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The next task is to edit the item code and put the item in accordance with
+ the identity of the item received.
+ The Item code is a unique code that represents each copy of the bibliography.
+ If, after the initial input it turns out there are more new copies, they
+ can be added by clicking on the Add New Item.
+ It will display a pop-up window like the image below:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-item-new.png
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Pop-up window to add the item/copy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The form for the addition of these items contains the following fields:
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Title 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Item code 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Call Number
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Inventory Code 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Location (linked and refers to Master File) 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Shelf Location
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Collection Type 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Item Status 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Order Number 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Order Date 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Received Date 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Supplier 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Item Source 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Invoice 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Invoice Date 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Price 
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Bibliographic List
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu is used to view the bibliographic data that already exists in
+ the Senayan database .
+ The information displayed in this menu includes: Title, Author, ISBN /
+ ISSN, Copies and Last Update.
+ This menu allows us to sort the list based on Title/Author, ISSN / ISBN,
+ copies and also the last update.
+ Using this menu bibliographies can be searched for, to edit or delete.
+ Here are the steps to edit or delete a bibliography via the 
+\begin_inset Quotes eld
+\end_inset
+
+Bibliographic List
+\begin_inset Quotes erd
+\end_inset
+
+ menu:
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Find a bibliography that will be changed by typing the title in the Search
+ Bibliography, select the field, and then click Search
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Once found, tick the Delete check-box alongside the data to be deleted and
+ click Delete Selected Data, or click the edit icon (left of the title)
+ to edit.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+A display of bibliographic data which is to be edited appears.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Activate the edit mode by clicking the Edit icon in the lower right corner
+ or the upper right corner.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Edit the parts needed, and then click Save Change.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-list.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Bibliographic list 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-edit.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Edit bibliography 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Item List
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu is used to view items in the Senayan database.
+ The information contained in this menu are: Item Code, Title, Type, Location,
+ Class, and Last Update.
+ This menu can also be used to edit and delete items.
+ Here are the steps to edit or delete an item:
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Find the item you want to change/remove by typing the title or item code
+ in the Search field, and then click Search
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Once found, tick the Delete check-box alongside the data to be deleted and
+ click Delete Selected Data, or click the edit icon (left of the title)
+ to edit.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+A display of bibliographic data which is to be edited appears.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Activate the edit mode by clicking the Edit icon in the lower right corner
+ or the upper right corner.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Edit the parts needed, and then click Save Change.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/item-list.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Item list 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/item-edit.png
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Edit item 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Checkout Items
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu provides information about the item being borrowed.
+ This menu is also equipped with a search facility to find bibliographic
+ items and titles.
+ The information contained in this menu is: Item Code, Member ID Borrower,
+ Title, Loan Date (when lent), Due Date (date of return).
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-chekout.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Checkout item 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Copy Cataloging
+\end_layout
+
+\begin_layout Standard
+SLiMS optimizes copy cataloging via 3 data exchange services: Z39.50 SRU
+ xml format using MODS, Z39.50 which utilizesYAZ, and P2P service between
+ SLiMS utilizing XML.
+\end_layout
+
+\begin_layout Subsection
+
+\lang bahasa
+Z 39.50 SRU: Search/Retrieval via URL
+\end_layout
+
+\begin_layout Standard
+A feature that is used for the process of copy-cataloging, as in the Z39.50
+ Service.
+ The difference from the users side is that the use of SRU does not require
+ YAZ installation, thus simplifying setup.
+ Additionally, SRU uses the http protocol, and so should not have problems
+ with firewalls.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/bib-sru.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Copy-cataloging Process using Z39.50 SRU
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang bahasa
+Z39.50 Service
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This is a new feature which commenced with SLiMS3-Stable10, which allows
+ library users to take Senayan library data from other libraries.
+ By default SLiMS points to the Library of Congress (http://loc.gov), but
+ other sources can be added at will.
+ Librarians simply enter the title, author or ISBN/ISSN, then Senayan will
+ retrieve the data.
+ If there is more than one result, then the librarian is able to select
+ the desired bibliography and save it.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+For effective use of Z39.50 it is best to use ISBN/ISSN, because ISBN/ISSN
+ searches will be more accurate.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/z39501.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+The initial Z39.50 process 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/z39502.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+The second Z39.50 process
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/z39503.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+The third Z39.50 process
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/z39504.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+The Z39.50 Results 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+To use Z39.50 (without SRU) the YAZ library has to be installed first.
+ YAZ installation details can be found at http://dicarve.blogspot.com.
+ While in Psenayan YAZ is already packaged, the port that YAZ uses is also
+ required to be open in any firewall that might exist on your computer/network.
+ The URL providing details of the Z39.50 protocol can be seen at http://irspy.inde
+xdata.com/.
+ In addition to major libraries, SLiMS can also retrieve data (copy-catalog),
+ using theZ39.50 protocol, from another application, such as Koha.
+\end_layout
+
+\begin_layout Subsection
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+P2P Service
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+P2P Service is a new feature that commenced with Senayan3-Stable14.
+ The basic concept of this feature is to share bibliographical data among
+ Senayan users.
+ This is an XML P2P service utilizing the facilities that already exist
+ in Senayan for sharing catalog data.
+ To use this P2P service, simply click the P2P service, enter a keyword
+ and select the location / url / library intended to search.
+ If the system finds a searchable collection, it will be displayed.
+\end_layout
+
+\begin_layout Standard
+Search on P2P service can use specific Boolean search models.
+ For example ISBN = 0-596-00108-8 AND Title = bazaar.
+ Besides ISBN and Title, details can also search using Author, GMD and Subject.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-p2p.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+P2P Service 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+P2P can be configured through changes to the sysconfig.inc.php file as the
+ following example:
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Find the line shown below,
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\lang bahasa
+$sysconf['p2pserver'][1] = array('uri' => 'http://127.0.0.1/senayan3-stable14',
+ 'name' => 'SLiMS Library');
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then edit it to the address and name of the target library.
+ P2P can also read itself .
+ If there is more than one addressee, it can be added to the row below,
+ as in the following example:
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\lang bahasa
+$sysconf['p2pserver'][1] = array('uri' => 'http://127.0.0.1/slims', 'name'
+ => 'SLiMS Library');
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+$sysconf['p2pserver'][2] = array('uri' => 'http://perpustakaan.kemdiknas.go.id/digi
+lib/', 'name' => 'Perpustakaan Diknas');
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+$sysconf['p2pserver'][3] = array('uri' => 'http://lib.geologi.ugm.ac.id/lib',
+ 'name' => 'Perpustakaan Geologi UGM');
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+A Senayan OPAC which aspires to capture data using P2P must enable the XML
+ feature This feature can be enabled in the System Module.
+ P2P can only be done in Senayan from stable-13 onwards.
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Labels Printing
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+With this menu you can print labels based on the collection of bibliographic
+ data which is entered in SLiMS.
+ The following sequence prints labels using Printing Labels menu:
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Click Labels Printing, and the display will appear as follows:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-labelprint.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Labels printing 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Select the bibliography to print the label.
+ Use Shift + click a checkbox to select more than one in rapid sequence.
+ Note: one print run can only contain a maximum of 50 records.
+ In this Print Label menu, it is possible to print more than one label,
+ depending on how many copies of a title exist.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Click Add to Print Queue to enter a selection in the print queue.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Click Print to start printing the Selected Data, it will display a pop-up
+ that asks you to send labels to the printer.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/bib-labelprint.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Select printer options
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/bib-labeljadi.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+The results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Item Barcodes Printing
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The menu provides a means to print barcode-based data items that have been
+ included in SLiMS.
+ The following sequence shows barcode printing using the menu item Barcodes
+ Printing:
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Click the Item Barcode Printing, the display will appear as follows:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/bib-prinbarcode.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Item barcode printing 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Select the item to be printed.
+ Use Shift + click a checkbox to select more than one in rapid sequence.
+ Note: one print run can only contain a maximum of 50 records
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Click Add to Print Queue to enter a selection in the print queue.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Click the Print Selected Data to start printing.
+ It will display a pop-up that asks us to print.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/bib-labelprint.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Select printer options
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/bib-bar-jadi.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+The results
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Catalog Printing
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This feature can be used to print a card catalog.
+ Printing is similar to printing a barcode or book label .
+ The results of printing are as shown below:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-cat-print.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Print catalog
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+MARC Import
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This feature is used to import MARC data files with either extension .MRC
+ or .XML.
+ Before using this feature, it's a condition that the SLiMS server has been
+ installed with PEAR, FILE_MARC and Structures_LinkedList.
+ On servers that use Ubuntu Linux, you can use the following command:
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+sudo pear install channel://pear.php.net/Structures_LinkedList-0.2.2
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+channel://pear.php.net/File_MARC-0.6.2
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+If these are not installed, then the display features are as follows:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-marc-error.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+MARC Import does not work
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+If they are already installed, then the display is:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-marc-inport.png
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+MARC Import ready for use
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If you have a MARC file, for example .MRC (if you do not have one, you can
+ download a sample MARC file with extension .MRC at http://www.gale.cengage.com/marc
+_records/) you can process it by clicking BROWSE and selecting the file
+ you want to import.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Number of records to import
+\begin_inset Quotes erd
+\end_inset
+
+ means how many records will be imported, 0 means all records in the database
+ file.
+ If successful, the system will display the view as follows:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-marc-sukses.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+MARC Import successfully executed
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Import Data
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The 
+\begin_inset Quotes eld
+\end_inset
+
+Import Data
+\begin_inset Quotes erd
+\end_inset
+
+ menu is used to retrieve bibliographic data from outside SLiMS in csv format
+ (or from a database that has been exported from Senayan in csv format ),
+ and then subsequently include it in Senayan.
+\end_layout
+
+\begin_layout Standard
+\align left
+
+\lang bahasa
+For instructions on importing data in more detail, please refer to the manual
+ for conversion of data from Athenaeum to Senayan and SIPISIS to Senayan.
+ Manuals for the conversion can be found at the
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://slims.web.id/download/docs/tutorial-athen2senayan.pdf
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+and 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://slims.web.id/download/docs/tutorial-isis2senayan.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Additionally, the Senayan Development Team also provides online tools for
+ conversion to Senayan.
+ This tool can be accessed at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://slims.web.id/senayan-converter/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Export Data
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The Export Data menu is used to retrieve bibliographic data in the Senayan
+ application , to then be included in an application other than Senayan.
+ This process can be understood as a data exchange.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The export process will generate a .csv file, while the import process requires
+ the file format to be .csv.
+ The format of the sequential csv is as follows: Title, GMD, Edition, ISBN,
+ Publisher, Yr published, Physical Description, Series Title, Call Number,
+ Language, Place Published, Classification, Note, Image file name, file
+ attachment file name, author , subject, barcode.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Examples are as follows:
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+"Linux In a Nutshell","Printed Book","Fifth Edition","9780596009304","OReilly",
+\begin_inset Newline newline
+\end_inset
+
+"2005","xiv, 925 p.
+ : ill.
+ ; 23 cm.","In a Nutshell","005.4/32-22 Ell
+\begin_inset Newline newline
+\end_inset
+
+ l","English","Sebastopol, CA","005.4/32 22","","linux_in_a_nutshell.jpg",
+\begin_inset Newline newline
+\end_inset
+
+"","<Siever, Ellen><Love, Robert><Robbins, Arnold><Figgins, Stephen><Weber,
+\begin_inset Newline newline
+\end_inset
+
+ Aaron>","<Operating System><Linux><Computer>","<B00009><B00010>"
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Exports are in the form:
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-eksport.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Export Bibliography Process 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Description:
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Field Separator : to define the separation between fields
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Field Enclosed with : define the character of the beginning and end of each
+ field
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Field Record Separator : character separating records
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Number of Records to Export: 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Start From Record: begin exporting from Record number
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-import.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Import Bibliography Process
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Description:
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+File To Import : File to import, extension .csv, and with the format of .csv
+ used by Senayan (see example above)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Field Separator: Inter-field separator used
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Field Enclosed with: define the character of the beginning and end of each
+ field
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Number of Record to Import: 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Start from record: begin importing from Record number
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Item Export
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+The format of the item data on the SLiMS export procedure is as follows:
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+"B00001","","Reference","INV/B00001","0000-00-00","","","MyLibrary",
+\begin_inset Newline newline
+\end_inset
+
+"0000-00-00","","","1","","500000","Rupiah","0000-00-00",
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+"2008-12-26 22:11:10","2008-12-26 22:14:13",
+\begin_inset Newline newline
+\end_inset
+
+"Ajax : creating Web pages with asynchronous JavaScript and XML"
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Make ​​reference to the data format above if you want to enter .
+ csv data into SLiMS.
+ The trick is to adjust the formatin the csv file ( e.g via a spreadsheet
+ ).
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Item Import
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+Item import is used to insert item data into a SLiMS database.
+ If this activity is done from a single SLiMS database to another SLiMSr,
+ then the item import is done after bibliography import.
+ This means the item will adjust the bibliographic data that has been imported
+ earlier.
+\end_layout
+
+\begin_layout Section
+Biblio Custom Field
+\end_layout
+
+\begin_layout Standard
+This feature is used to add a new field in the Bibliography, which might
+ be needed by a library using Senayan, but which is not in the standard
+ SLiMS fields
+\end_layout
+
+\begin_layout Standard
+To add a new field do the following steps:
+\end_layout
+
+\begin_layout Itemize
+Open the file custom_fields.inc.php located in the folder admin/modules/bibliograp
+hy
+\end_layout
+
+\begin_layout Itemize
+In this file there are five (5) Custom Fields that can be used; if you only
+ want to add one then 2-5 may be removed.
+\end_layout
+
+\begin_layout Itemize
+Next you need to change the field according to the needs of your library.
+ For example, we want to add a name penginput data, then (for example):
+\end_layout
+
+\begin_layout LyX-Code
+'dbfield' => 'librarian', // name of field in 'biblio' table in database,
+ make sure you already define it! 
+\end_layout
+
+\begin_layout LyX-Code
+'label' => __('Librarian'), // label of field in form 
+\end_layout
+
+\begin_layout LyX-Code
+'type' => 'text', // type of field 
+\end_layout
+
+\begin_layout LyX-Code
+'default' => '', // default value of field 
+\end_layout
+
+\begin_layout LyX-Code
+'max' => '50', // maximum character to enter in 'text' field type
+\end_layout
+
+\begin_layout LyX-Code
+'data' => false, // an array of data for 'dropdown', 'checklist' or 'choice'
+\end_layout
+
+\begin_layout LyX-Code
+'indexed' => true, // NOT APPLICABLE YET, FOR FUTURE RELEASE USE
+\end_layout
+
+\begin_layout LyX-Code
+'width' => 50), // width of field in form for 'text' field type, maximum
+ is 100
+\end_layout
+
+\begin_layout Itemize
+The next step is to create a field 
+\begin_inset Quotes eld
+\end_inset
+
+librarian
+\begin_inset Quotes erd
+\end_inset
+
+ in the table biblio_custom .
+ Table biblio_custom already exists if we install at least Senayan3-stable14
+ (Seulanga), or is made ​​if you have done the upgrade of SLiMS to Senayan3-stab
+le14
+\end_layout
+
+\begin_layout Itemize
+The result of the addition of these fields appears in the display of 
+\begin_inset Quotes eld
+\end_inset
+
+Add New Bibliography
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/biblio-custom.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Biblio Custom 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

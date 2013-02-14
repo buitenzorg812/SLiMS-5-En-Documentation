@@ -1,0 +1,1159 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+\lang bahasa
+System
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color blue
+\lang bahasa
+The library is an arena of possibility, opening both a window into the soul
+ and a door onto the world.
+ --Rita Dove
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The Systems Module consists of:
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+System Configuration
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Using this form you can make changes to the global preferences in Senayan
+ applications, such as: Library Name, Public Template ( of the OPAC display),
+ Default Application Language, Admin Template (Admin view), Number of Collection
+s to Show in OPAC Result List (number of titles that will be displayed on
+ every page in the OPAC), Show Promoted Titles at Homepage (showing title
+ in the home page), Disable/Enable Quick return (to allow the return of
+ items with a quick method), Enable/Disable Loan Limit Overrride (ability
+ for staff to override limits), Disable/Enable XML details in the OPAC,
+ Disable/Enable XML results in the OPAC, Allow (allow) or Forbid (forbid)
+ visitors/users to download the file attachment in the OPAC, Session Login
+ Timeout, and Barcode Encoding.
+ In this menu too, we can see which version of Senayan we are using.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-config.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Senayan Global Configuration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Show Promoted Titles at Homepage Module Feature on this system: if the check
+ box is checked, the front of the OPAC display will be blank, unless there
+ is a set of bibliographic data to display on the front page.
+ See the Add New Bibliography menu in the bibliography module.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Commencing Senayan3-stable11, there is a feature to specify the date of
+ loan and for return, manually.
+ This feature can be enabled through the System Configuration Module, using
+ the setting for Loan and Due Date Manual Change ( Enable/Disable).
+ (This feature is accessed in the Circulation Module)
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Content
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu is used to change the appearance of the Senayan application content
+ .
+ By default, views that already exist and can be modified in this menu are:
+ Homepage info, located at the front of the OPAC [displayed when 
+\begin_inset Quotes eld
+\end_inset
+
+Home
+\begin_inset Quotes erd
+\end_inset
+
+ is clicked ]; Welcome to Admin page, [the initial display when entering
+ the Admin menu (Senayan Management Console)]; Help On Usage, [accessed
+ from the OPAC]; and Library Information, [ also accessed from the OPAC].
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-conten.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Default Content Menu configuration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-adconten.png
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Adding Content
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-cont-tampil.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+The appearance of the new content
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-tamp-con 1.png
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+The URL to display the content
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Please see the URL for displaying the content, above.
+ 
+\uwave on
+\color red
+Looks path created on the new content that is 'librarian'.
+ To display this content with librarians path, then we need to write the
+ url:
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\lang bahasa
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://localhost/senayan3-stable9/index.php?p=pustakawan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\uwave on
+\color red
+\lang bahasa
+Url can we create the navigation in the OPAC by editing the template.
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Biblio Indexes
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu is used to index the bibliographic databases used by SLiMS.
+ Given this indexing, the search of performance of SLiMS will be improved
+ .
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/system-index.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Bibliographic Index System Module
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There are three functions in this menu:
+\end_layout
+
+\begin_layout Itemize
+Emptying the index: to clear the existing index results
+\end_layout
+
+\begin_layout Itemize
+Re-Create Index: to re-index the database of bibliographic data
+\end_layout
+
+\begin_layout Itemize
+Update the index: to index new bibliographic data that has not yet been
+ indexed.
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Modules
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Provides the functions of Module List (listing existing modules), Search
+ (search for a module), Edit and Delete Modules, and Add New Module (add
+ a module).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+To add a module, the module folder must already be placed in the folder
+ admin/modules/.
+ Then click the Add New Modules, fill in the information of the new module,
+ namely: Module Name (the name of the module), Module Path (path/location
+ of the module), Module Description (brief description of the module), and
+ then click 
+\begin_inset Quotes eld
+\end_inset
+
+Save
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-modulist.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Module List 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-newmod.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Add New Module 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+System Users
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+A facility to determine which users can access the system, according to
+ their permissions.
+ These users will be able to perform a login according to their username
+ and password respectively.
+ This menu contains the options: Add New User (adding users), Users List
+ (list of users), Search (search for a user), Edit and Delete user.
+ To add a new user, click Add New User, and then fill in the Login Username,
+ Real Name, Groups ( that they will belong to), and Password.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-addsysuser.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Add User
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+User Groups
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+A facility to define Groups of Users.
+ In this you can create groupings of your system users and grant read (Read)
+ or Write (Write) permissions for the Senayan modules.
+ Each user can be placed in more than one group.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-usergroup.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Example of Senayan groups
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Holiday Setting
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+A facility to determine days off, where the library is not open for service.
+ Defining these holidays will effect calculation of weekdays the library
+ is active/open, and fine calculation.
+ There are two types of holidays that can be defined in this menu, regular
+ days off (Monday till Sunday) and special holidays (defined by date, month
+ and year).
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-holset.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Set Holiday 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-addspechol.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Add Special Holiday 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+To Set Holidays, librarians just choose the day(s) that is a routine holiday
+ .
+ For the Add Special Holiday, librarians can determine the date, month,
+ year and description of the holiday.
+ In addition, Special Holidays can also be configured with a range of time-off
+ (from the start date until the date of completion of holidays).
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Barcode Generator
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+A facility to create barcodes.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-barc-awal.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Form for creating barcode(s)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-barcode.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Resulting barcodes from Barcode Generator
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Enter the code that will be made into a barcode in the columns on the screen.
+ Determine the size of the barcode (Small, Medium, or Big), and click the
+ Generate Barcode.
+ Then it will be seen in the form of a barcode , inHtml and can be printed
+ in a printer.
+ The default encoding used is barcode 128B.
+ You can modify this barcode encoding in the Senayan global configuration
+ file , sysconfig.inc.php.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Find the line that reads:
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+$sysconf['barcode_encoding'] = '128B';
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Change the value of type 128B to the encoding you want.
+ Make sure the images directory is writable by the web server.
+\end_layout
+
+\begin_layout Quotation
+
+\lang bahasa
+Note:
+\end_layout
+
+\begin_layout Quotation
+
+\lang bahasa
+The characters that can be processed in the Barcode Generator are just the
+ alphanumeric character set.
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+System Log
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This is a menu to view the recorded processes conducted by the Senayan system.
+ Records that are produced list Time, Location (module name), and Message
+ (description).
+ Messages that appear in the System Logs include Who (User/Administrator),
+ conducted what ,and where.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/sys-log.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+System Logs 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+When the Senayan application has been used, it will automatically log the
+ Senayan work and the log size and load will also increase.
+ Therefore, the system log menus, also contains the facility to SAVE LOGS
+ TO FILES.
+ This process will save the existing log, and then we clean the screen with
+ a click on CLEAR LOGS.
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Database Backup
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+A facility to backup the Senayan database .
+ To be able to back up, the mysqldump file path must be defined.
+ The trick is to edit the file sysconfig.inc.php.
+ Find the line that reads:
+\end_layout
+
+\begin_layout LyX-Code
+
+\lang bahasa
+$sysconf['mysqldump'] = '/usr/bin/mysqldump';
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+and replace /usr/bin/mysqldump with the location of the mysqldump binary
+ on the server computer.
+ After the mysqldump path has been set accurately, click Start New Backup
+ and Senayan will back up automatically.
+ The format of backup files created by Senayan is .sql in layout and named
+ according to the creation date- for example: backup_20080501_123106.sql.
+ This Backup file name means: made on the 1st of the month 5-year 2008,
+ at 12:31:06.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\lang bahasa
+Note: to do this backup, the mysql database user must have the right to
+ LOCK TABLES
+\end_layout
+
+\end_body
+\end_document

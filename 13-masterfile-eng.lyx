@@ -1,0 +1,298 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+\lang bahasa
+Master File Topic
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color blue
+\lang bahasa
+When I got my library card, that's when my life began.
+ --Rita Mae Brown
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+In this module we can enter the master file data that can be used as a master
+ in bibliographic data entry.
+ The data that can be defined in this Master File module is:
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+GMD General Material Designation – The physical form of the media item 
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Publisher* – Publisher name
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Supplier – Supplier is a supplier of items being placed in the collection
+ e.g a pareticular bookstore
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Statement of Responsibility – persons or bodies responsible for the the
+ creation of the item
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Author* – author's name and the type of author (individual or group)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Subject* – the topic/subject, classification code, subject type, and authority
+ files source.
+\end_layout
+
+\begin_layout Quote
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename image/master-subjec-new.png
+	scale 65
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Master File-Subject
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Location – location code and the name of the location where the item is
+ placed
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Place – contains the place of publication
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Item Status – contains the status of the item (Repair, On Loan, Reserved).
+ Each Item Status category contains the Item Status Code , Item Status Name
+ and Rules.
+ There are two options in Rules: No Loan Transaction (items can not be borrowed,
+ eg digital collections) and Skipped by Take Stock (not contained in the
+ process of the Stock Take)
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Collection Type – the type of item collections owned by the library, for
+ example: Textbook, Reference
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Doc.
+ Language – the language used by the document.
+ Eg: Indonesian, English, French, Javanese etc..
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Label – To provide specific information about the bibliographic item.
+ labels can be defined in the Master File menu.
+ By default Senayan has three labels: New Title, Favorite Title and Multimedia.
+\end_layout
+
+\begin_layout Itemize
+
+\lang bahasa
+Frequency – contains the time/frequency of publications published ( for
+ serial publications )
+\end_layout
+
+\begin_layout Quote
+
+\lang bahasa
+* In addition to being entered through the Master Files, Publisher, Author
+ and Subject data can also be entered when loading bibliographic data e.g
+ MARC data.
+\end_layout
+
+\begin_layout Quote
+
+\lang bahasa
+In Senayan3-Stable15/Matoa there are also new features grouped in Tools.
+ These features include Orphaned Author and Orphaned Subject.
+\end_layout
+
+\begin_layout Quote
+
+\lang bahasa
+Both these features are used to refine the author/authors and subjects that
+ are not used in the SLiMS database.
+ When it has been filtered by clicking Orphaned Author or Orphaned Subject,
+ a list of subjects or authors that are not used will appear.
+ If you want to remove them, please select some or all, then Delete.
+\end_layout
+
+\begin_layout Quote
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename image/master-orphaned.png
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Orphaned Feature
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

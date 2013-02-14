@@ -1,0 +1,578 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\lang bahasa
+SLiMS documentation
+\end_layout
+
+\begin_layout Title
+
+\lang bahasa
+Based on SLiMS-5
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\lang bahasa
+* written with LyX 1.6.5
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(MERANTI)
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\lang bahasa
+† SLiMS official website: http://slims.web.id
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/tarsius.png
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman} 
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Box Shadowbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Using free open source software / free software is like quoting statements
+ from other people's work in the academic field, the original author ga
+ ask anything at anyway, ask for money too engga, cuman have your name and
+ work with him disebutin good and true, because I'm that much doang engga
+ hard right? (Arie Nugroho, Core Programmer SLiMS)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Updated in Senayan5 (MERANTI): 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Template admin and new OPAC 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Z39.50 SRU: Search / Retrieval via URL
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: OAI / PMH feature
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Statement of Responsibility in the bibliography
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Item(s) batch barcode generator
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Bibliographic Classification
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Printing catalog cards
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Fixed: Bug in exporting and importing bibliographic items
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Search result clustering
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Brazilian-Portugese language
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Orphaned publisher and place
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: MARC data Import
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Member photos captured directly in the application
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Keyboard shortcuts to modules and sub-modules
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Mobile display
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Setting a fine, and holiday count
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Added: Zend barcode
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\lang bahasa
+Important Note:
+\end_layout
+
+\begin_layout Subsubsection*
+
+\lang bahasa
+Sysconfig
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+sysconfig.local.inc.php
+\end_layout
+
+\end_inset
+
+, is a file that does the same configuration as sysconfig.inc.php.
+ However, for local changes, it's recommended to just change the file sysconfig.l
+ocal.inc.php .
+ Logically, if there are two common configurations in the two files , SLiMS
+ will read sysconfig.local.inc.php.
+ as overriding sysconfig.inc.php.
+\end_layout
+
+\begin_layout Standard
+For example::
+\end_layout
+
+\begin_layout Standard
+\align left
+If, in the file 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+sysconfig.inc.php
+\end_layout
+
+\end_inset
+
+ there is a line 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+$sysconf['ucs']['enable'] = false;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align left
+And in the file 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+sysconfig.local.inc.php
+\end_layout
+
+\end_inset
+
+ there is a line 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+$sysconf['ucs']['enable'] = true;
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then the SLiMS application will use the configuration of the value as =
+ true.
+\end_layout
+
+\begin_layout Subsubsection*
+Shortcuts
+\end_layout
+
+\begin_layout Standard
+From SLiMS5 onwards, SLiMS has shortcut features that can be used to switch
+ menus without using the mouse.
+ Shortcuts apply to MODULES and Submodules.
+ The modules use a combination of Shift + Function keys (F1-F8 and Esc),
+ while in submodules , we use combinations of Ctrl + Number and also Ctrl
+ + Alt + Number
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/hotkey-shift.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Module Shortcuts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/hotkey-shift.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Submodule Hotkeys
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\family sans
+\series bold
+\color black
+\lang bahasa
+Translation notes: 
+\family default
+\series default
+This document has been translated from Bahasa Indonesia by a native speaker
+ of English, using Google Translate and professional knowledge of library
+ computer systems.
+ As such, it is neither elegant nor likely to be completely accurate, since
+ I have little knowledge of Indonesian language.
+ I have followed almost completely the format and wording of the original
+ document and whenever uncertain as to Google Translate's output, I cross-checke
+d by accessing an operational Senayan SLiMS 5 ( Meranti ) installation.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+As readers find errors and think of possible improvements in this document
+ , it would be most helpful if they could notify us about them via the SLiMS
+ user forums ( 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://forum.slims.web.id )
+\end_layout
+
+\end_inset
+
+ )
+\end_layout
+
+\begin_layout Standard
+\align right
+
+\shape italic
+\color black
+- jim richardson 
+\shape default
+
+\begin_inset CommandInset href
+LatexCommand href
+name "(gurujim)"
+target "http://forum.slims.web.id"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

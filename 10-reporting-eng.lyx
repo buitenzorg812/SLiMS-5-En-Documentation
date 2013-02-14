@@ -1,0 +1,1515 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrbook
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+\lang bahasa
+Reporting
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\color blue
+\lang bahasa
+Librarians are subversive.
+ You think they're just sitting there at the desk, all quiet and everything.
+ They're like plotting the revolution.
+ --Michael Moore
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+The Reporting module contains a library activity report.
+ Such information can be accessed by pressing the menu located on the left
+ hand navigation menu:
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Collection Statistic
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Contains the total collection information for titles, total items, total
+ items being borrowed, the total items that were in the library (not borrowed),
+ total titles based GMD, total collection of items by type, and 10 (ten)
+ most popular collection of titles (most borrowed).
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-colstat.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Display Collection Statistics
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Loan Report
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Contains information about borrowing.
+ Consists of: total lending, lending based on GMD, lending by the collection
+ type, total lending transactions, the average transaction per day, a member
+ who have loans, members who do not have loans, and total overdues loans.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-loanrep.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Loan Report Menu 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Membership Report
+\begin_inset Quotes erd
+\end_inset
+
+ Menu 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Contains membership information, ie the total registered members, the total
+ active members, total members by members type , total members who are not
+ active and a list of 10 (ten) most active members.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-memrep.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Member Report 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\lang bahasa
+The report is available in .html format and can be printed by clicking Download
+ Report
+\end_layout
+
+\begin_layout Quote
+
+\lang bahasa
+Commencing Senayan3-stable14, the three types of report are equipped with
+ a print feature of various Pie charts.
+ You get this graph simply by clicking the 
+\begin_inset Quotes eld
+\end_inset
+
+Show in Chart/Plot 
+\begin_inset Quotes eld
+\end_inset
+
+ which appears in all three types of report (Statistics Collection, Loan
+ Report, and Membership Report).
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-pie1.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Show in chart/plot 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-pie2.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Pie display 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Custom Recapitulations
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu displays the recapitulation of titles, based on Classification,
+ GMD, Collection Type or Language.
+ This option can be set by selecting the recapitulation filter available.
+ Senayan also supports recap for classifications not based on decimal numbers.
+ For example, REF for reference.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep_classrep.png
+	scale 30
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Recap by Classification
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Commencing with the Senayan3-Stable10 Report module, there is a development
+ to allow users to create a a new report on a Senayan module.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+In the folder /senayan3-stable10/admin/modules/reporting/custom/ there exists
+ a file, customs_report_list.inc.php .
+ In this file, report modifications and additions can be made​​.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Custom Recapitulation - 
+\begin_inset Quotes eld
+\end_inset
+
+Print Current Page
+\begin_inset Quotes erd
+\end_inset
+
+ provides the facility to print reports, and "Export to spreadsheet format"
+ to place the report in a spreadsheet.
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Titles List
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Contains reports/lists of titles held by the library.
+ In this menu there is a facility to sort and print, as well as a collection
+ of desired filters.
+ In this menu, filtering can also be done by writing the Title/ISBN, or
+ by other filters.
+ You do this by clicking
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+Show More Filter Options
+\end_layout
+
+\end_inset
+
+.
+ Existing filters are: Title/ISBN, Author, Classification, GMD, Langage
+ and Location, and can be specified by the number of page views.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-title.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Title Report
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This feature also provides the facility to create a spreadsheet file download.
+ Files can be obtained by clicking "Export to spreadsheet format".
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Items title List
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Contains reports/lists of copies of titles held by the library.
+ In this menu there is a facility to sort and print, as well as a collection
+ of desired filters.
+ In this menu, filtering can also be done by writing the Title/ISBN, or
+ by other filters.
+ You do this by clicking 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+Show More Filter Options
+\end_layout
+
+\end_inset
+
+.Available filters are: Title/ISBN, Item Code, Classification, Collection
+ Type, Item Status, Location.
+ This filter facilities can be hidden by clicking
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+Hide Filter Option
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-item.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Item Title List Report
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+Item Usage
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This is a report that lists the item, and how many times the copy has been
+ borrowed on a monthly basis.
+ Item usage also can be filtered by Title/ISBN, Item code or Year.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/itemusage.png
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Item Usage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Loan by Classification
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This is a classification-based lending report.
+ In addition to classes 0-9, the report also makes possible class-based
+ reporting and Non-Decimal Class 2X.
+ Loans can be filtered by Class, Type and Year.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/loanbyclass2.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Loan by Class
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This feature also provides the facility to create a spreadsheet file download.
+ Files can be obtained by clicking "Export to spreadsheet format".
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Member List
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This contains a report/list of library members.
+ In this menu there is a facility to sort and print.
+ In addition, there are also filter amenities , ie based on Membership Type,
+ Member ID/Member Name, Gender, Address, 
+\begin_inset Quotes eld
+\end_inset
+
+Register Date From
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Register Date Until
+\begin_inset Quotes erd
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-member.png
+	scale 45
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Member List Report
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This feature also provides the facility to create a spreadsheet file download.
+ Files can be obtained by clicking "Export to spreadsheet format".
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Loan List by Member
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This is a report that contains a list of items that are still borrowed by
+ Members.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-hystori.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Loan list by Member 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Loan History
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This contains reports/lists of library borrowing history for Members.
+ In this menu there is a facility to sort and print.
+ In this menu, filtering can also be done by writing the Member ID/Member
+ Name, or by other filters.
+ You do this by clicking
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+Show More Filter Options
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-loanhys.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Loan History Report
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This feature also provides the facility to create a spreadsheet file download.
+ Files can be obtained by clicking "Export to spreadsheet format".
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Overdued List 
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This contains reports/lists of overdue items borrowed by library members.
+ In this menu there is a facility to sort and print.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-overdu.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Overdue Report 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Staff Activity
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This menu shows the activities of the library staff who have an account
+ in the Senayan application.
+ The information shown is the Username, Login Name, Bibliographic data entry,
+ Items data entry , Member data entry, and Circulation.
+ So this menu will make visible which staff did what, and how many times.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+For accurate information, a filter is provided that lets us see the activity
+ from a beginning to the end date (as defined).
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep_staffactv.png
+	scale 40
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Staff Activity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Quotes eld
+\end_inset
+
+Visitor Statistic
+\lang bahasa
+
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+This is a report that contains statistics of library visitors.
+ This report contains Member Type, and the number of visits in each month
+ in the year specified.
+ Determination based on this year's report can be done through the filter.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-visit stat.png
+	scale 55
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Visitor Statistic
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Visitor Statistic (by Day)
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This is a report based on the number of visitors per weekday.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-visbyday.png
+	scale 40
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Visitors by Day
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Visitor List
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This report contains a list of names of library members or non-members who
+ visit the library.
+ This report contains information on the Member ID, Member Name, Member
+ Type, Institution and Visit date.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-visit list.png
+	scale 60
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Visitor List
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+For a description of the missing features, please see the section 
+\begin_inset Quotes eld
+\end_inset
+
+Absence.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Fines Report
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This is a report based on the numbers of members fined each day.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/rep-finesrep.png
+	scale 40
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Fines Report
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang bahasa
+\begin_inset Quotes eld
+\end_inset
+
+Due Date Warning
+\begin_inset Quotes erd
+\end_inset
+
+ Menu
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+This report contains the items of the borrower that will be due within 3
+ days.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename image/report-duedatewarning.png
+	scale 60
+	rotateOrigin centerTop
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Due date Warning
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
