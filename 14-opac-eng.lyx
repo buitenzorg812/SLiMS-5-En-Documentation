@@ -265,7 +265,7 @@ In Senayan stable8, facilities were added to customise appearance and add
  custom_frontpage_record.inc.php OPAC template.
  So if you want to change the view provided, and you are using the default
  template, you should edit the file custom_frontpage_record.inc.php existing
- templates /default/.
+ in /templates /default/.
  The contents of this file are:
 \end_layout
 
@@ -524,11 +524,11 @@ Member Area
 Commening with Senayan3-Stable12, Senayan has a Member Area feature.
  The big change in the Member Area occurred in Stable 15/Matoa.
  In this feature members can log in using their member ID and password previousl
-y been determined by the librarian in the member data record.
+y determined by the librarian in the member data record.
  In Stable12 when members login, members can view the collection on loan
  to them, and change their password.
- But with this expanded facility in Stable15/Matoa downloading of loan list,
- download of rental history list, and booking via email are all possible
+ But with this expanded facility in Stable15/Matoa, downloading of a loan
+ list, download of rental history list, and booking via email are all possible.
 \end_layout
 
 \begin_layout Standard

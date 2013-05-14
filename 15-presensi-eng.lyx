@@ -70,7 +70,7 @@ This module is accessed through this URL (adjust to your own SLiMS address):
 \end_layout
 
 \begin_layout LyX-Code
-http://localhost/senayan3-stable14/?p=visitor
+http://localhost/slims5_meranti/?p=visitor
 \end_layout
 
 \begin_layout Standard
@@ -171,12 +171,12 @@ $allowed_counter_ip = array('127.0.0.1');
 \end_layout
 
 \begin_layout Standard
-In the script above, 127.0.0.1 is an IP address are allowed to access the visitor
- counter.
+In the script above, 127.0.0.1 ( which is the localhost address ) is an IP
+ address which is allowed to access the visitor counter.
  If there is more than one computer then the computer IP address in question
  must be pre-loaded in the script above.
  For example, to allow computers with the IP addresses 10.45.1.1, 10.45.1.2 and
- 10.45.1.3, the scrip is written:
+ 10.45.1.3, the script is written:
 \end_layout
 
 \begin_layout Standard
