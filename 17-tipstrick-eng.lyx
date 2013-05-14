@@ -120,7 +120,7 @@ Verify SLiMS OPAC can be accessed via the internet
 \end_layout
 
 \begin_layout Enumerate
-Setting OAI-PMH features that enable value "true".
+Setting OAI-PMH features that 'enable' value to = "true".
  This setting is in file
 \family typewriter
  sysconfig.inc.php
@@ -3871,8 +3871,8 @@ SLiMS Standard template
 \end_layout
 
 \begin_layout Standard
-Th efile display the contents of the above can be found in the folder /templates
-/default.
+The file that displays the contents as shown above can be found in the folder
+ /templates/default.
 \end_layout
 
 \begin_layout Standard
@@ -4916,8 +4916,8 @@ Adding a Z.39.50 Server
 \lang bahasa
 Commencing with Senayan3-stable15 (Matoa), SLiMS users will find it easy
  if they want to add new z.39.50 destination.
- The requiremenst to use Z39.50 is that SLiMS is connected to the Internet,
- and the required ports on the server are open, As you know, the earlier
+ The requirements to use Z39.50 are that SLiMS is connected to the Internet,
+ and that the required ports on the server are open, As you know, the earlier
  Z39.50 in SLiMS only connects to the American Library of Congress .
  How to add others?
 \end_layout

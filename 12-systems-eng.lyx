@@ -387,9 +387,14 @@ The URL to display the content
 \lang bahasa
 Please see the URL for displaying the content, above.
  
+\end_layout
+
+\begin_layout Standard
+
 \uwave on
-\color red
-Looks path created on the new content that is 'librarian'.
+\color black
+\lang bahasa
+Consider a path created for the new content that is 'librarian'.
  To display this content with librarians path, then we need to write the
  url:
 \end_layout
@@ -399,11 +404,11 @@ Looks path created on the new content that is 'librarian'.
 \color red
 \lang bahasa
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
-http://localhost/senayan3-stable9/index.php?p=pustakawan
+http://localhost/slims5_meranti/index.php?p=librarian
 \end_layout
 
 \end_inset
@@ -414,9 +419,9 @@ http://localhost/senayan3-stable9/index.php?p=pustakawan
 \begin_layout Standard
 
 \uwave on
-\color red
+\color black
 \lang bahasa
-Url can we create the navigation in the OPAC by editing the template.
+We can create the navigation to this URL in the OPAC by editing the template.
 \end_layout
 
 \begin_layout Section
@@ -436,8 +441,7 @@ Biblio Indexes
 
 \lang bahasa
 This menu is used to index the bibliographic databases used by SLiMS.
- Given this indexing, the search of performance of SLiMS will be improved
- .
+ Given this indexing, the search performance of SLiMS will be improved .
 \end_layout
 
 \begin_layout Standard
